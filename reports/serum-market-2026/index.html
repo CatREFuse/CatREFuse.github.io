@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>细胞培养血清市场与需求机会地图 2026</title>
+</head>
+<body>
+  <noscript>请启用 JavaScript 查看报告。</noscript>
+  <script>window.__SERUM_PARTS=[];</script>
+  <script src="p1.js"></script>
+  <script src="p2.js"></script>
+  <script src="p3.js"></script>
+  <script src="p4.js"></script>
+  <script src="p5.js"></script>
+  <script src="p6.js"></script>
+  <script>
+    (async()=>{
+      try{
+        const encoded=window.__SERUM_PARTS.join('');
+        const bytes=Uint8Array.from(atob(encoded),c=>c.charCodeAt(0));
+        const stream=new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+        const html=await new Response(stream).text();
+        document.open();document.write(html);document.close();
+      }catch(error){
+        document.body.innerHTML='<main style="max-width:760px;margin:12vh auto;padding:24px;font:16px/1.7 system-ui,sans-serif"><h1>报告加载失败</h1><p>请使用最新版 Chrome、Edge、Safari 或 Firefox 重新打开。</p></main>';
+      }
+    })();
+  </script>
+</body>
+</html>
